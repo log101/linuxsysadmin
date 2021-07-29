@@ -17,6 +17,6 @@ per user privilages. With sudo mechanism you can be super-user per-command basis
 `your-user-name ALL=(ALL) ALL`
 7. Save and exit.
 8. Now you need to change the permissions for the file. (We don't want strangers to edit your permissions!)
-`chmod 440 /etc/sudoers.d/your-user-name`
+`chmod 440 your-user-name`
 9. After these steps, exit from the root shell and using sudo again. It should work now!
 
